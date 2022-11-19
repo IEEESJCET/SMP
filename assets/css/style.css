@@ -49,6 +49,14 @@ h6 {
 .main-page {
   margin-top: 70px;
 }
+#reg2{
+  visibility: hidden;
+}
+@media (max-width: 992px) {
+ #reg2{
+  display: none;
+ }
+}
 
 /* Prelaoder */
 #preloader {
@@ -1331,9 +1339,18 @@ h6 {
   border: 0;
   color: #fff;
 }
-
+#buy-tickets .btncs{
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  /* background-color: #f82249; */
+  border: 0;
+  color: #fff;
+  background-color: #474747;
+}
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #fa143e;
 }
 
 #buy-tickets #buy-ticket-modal input,
