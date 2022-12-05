@@ -1454,10 +1454,10 @@ h6 {
   color: #fff;
   background-color: #474747;
 }
-#buy-tickets .btncs:hover span{
+#buy-tickets #participant .btncs:hover span{
 display: none;
 }
-#buy-tickets .btncs:hover:after {
+#buy-tickets #participant .btncs:hover:after {
   content: 'Registration Closed';
   }
 
